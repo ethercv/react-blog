@@ -1,8 +1,14 @@
-# React + Vite
+# приложение блог react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Что сделано
+- Получение постов по api от jsonplaceholder
+- Возможность локально удалять, добавлять, редактировать посты.
+- При удалении, редактировании, добавлении поста отправляются запросы по api с методами DELETE, PUT, POST.
+- Проверка на количество символов в заголовке и тексте поста.
+- Добавлена дата у постов, которые отправляешь сам. У постов полученных по api "Дата неизвестна".
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Что хочу сделать
+- Добавить надписи снизу инпутов красными буквами, если превышено кол-во символов, а кнопка "опубликовать" что бы становилась недоступной.
+- Нужно сделать упорядочивание по папкам. Например, я знаю, что нужно api запросы выносить в отдельные папки и файлы. И еще наверно можно много чего отрефакторить.
+- Добавить typescript.
+- Сделать все, что нужно будет еще из раздела "качаем харды". 
